@@ -334,6 +334,10 @@
                                         <key><value>RadiologyHandler</value></key>
                                         <bean class="org.openmrs.module.fhir.api.diagnosticreport.handler.RadiologyHandler"/>
                                     </entry>
+                                    <entry>
+                                        <key><value>NuclearMedicineScanHandler</value></key>
+                                        <bean class="org.openmrs.module.fhir.api.diagnosticreport.handler.NuclearMedicineScanHandler"/>
+                                    </entry>
                                 </map>
                             </property>
                         </bean>
